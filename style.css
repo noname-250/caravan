@@ -228,68 +228,70 @@ footer{
 }
 
 @media screen and (max-width: 425.5px) {
-    header{
-        width: 100%;
+    header {
+      width: 100%;
     }
-
-    .nav-list{
-        width: 100%;
+  
+    .nav-list {
+      width: 100%;
     }
-
+  
     .nav-list-item {
-        display: block;
-        margin: 0 auto 10px;
+      width: 100%;
+      margin: 0 0 10px 0;
     }
-
-    .social i {
-        display: none;
+  
+    .social {
+      display: none;
     }
+  
     .main-visual-content {
-        width: 100%; 
+      width: 100%;
     }
-
-    main{
-        width: 100%;
-        display: block;
+  
+    main {
+      width: 100%;
+      display: block;
     }
-
+  
     .blog {
-        width: 100%;
-        margin: 0 10px 30px;
+      width: 100%;
+      margin: 0;
     }
-
-    .blog-image{
-        height: 180px;
-        width: 180px;
+  
+    .blog-box {
+      padding-left: 2%;
+      padding-right: 2%;
     }
-
-    .blog-text{
-        padding: 25px 50px 0 30px;
+  
+    .blog-image {
+      width: 49%;
     }
-
-    .blog-date{
-        font-size: 15px;
-        display: inline-block;
+  
+    .blog-text {
+      width: 49%;
+      padding-top: 5px;
     }
-    
-    .category {
-        display: none;
-    }
-
+  
     .sideber {
-        width: 100%;
-        padding: 0 10px;
+      width: 100%;
+      padding-left: 3%;
+      padding-right: 3%;
     }
-
-    .instagram .sidebar-contents {
-        justify-content: center;
-    }
-
+  
     .instagram-box {
-        width: 190px;
-        height: 190px
+      width: 48%;
+      padding-top: 48%;
     }
-}
+  
+    .instagram-box:nth-child(odd) {
+      margin-right: 4%;
+    }
+  
+    .pagination {
+      margin-bottom: 50px;
+    }
+  }
 
 
 
